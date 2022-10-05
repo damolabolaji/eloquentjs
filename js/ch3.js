@@ -1,5 +1,5 @@
 
-
+//Finding minimum
 function min (a,b){
     if(a < b){
     return a
@@ -13,3 +13,20 @@ function min (a,b){
     // → 0
     console.log(min(0, -20));
     // → -20
+
+
+//B Counting
+ function countBs(string){
+        let width = string.length;
+          counter = 0;
+          for(let i = 0; i < width; i++){
+          if(string[i] == "B"){
+              counter += 1;
+              }
+            
+          }
+          return counter;
+        }
+        
+        console.log(countBs("BBC"));
+        // → 2
