@@ -43,5 +43,9 @@ let width = string.length;
   return counter;
 }
 
+// function countBs(string) {
+//   return countChar(string, "B");
+// }
+
 console.log(countChar("BBBabaloC", "B"));
 // → 3
