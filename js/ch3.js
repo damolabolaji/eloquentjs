@@ -30,3 +30,18 @@ function min (a,b){
         
         console.log(countBs("BBC"));
         // → 2
+
+function countChar(string,char){
+let width = string.length;
+  counter = 0;
+  for(let i = 0; i < width; i++){
+  if(string[i] == char){
+  	counter += 1;
+  	}
+    
+  }
+  return counter;
+}
+
+console.log(countChar("BBBabaloC", "B"));
+// → 3
