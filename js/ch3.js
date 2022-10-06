@@ -1,3 +1,20 @@
+//Farmer's Market 
+function formNumberString(number,label){
+  numberString = String(number)
+
+  while(numberString.length < 3){
+    numberString = '0' + numberString;
+  }
+  console.log(`${numberString} ${label}`)
+}
+
+
+function printList(num1,num2,num3){
+  formNumberString(num1,'cow');
+  formNumberString(num2,'chicken');
+  formNumberString(num3,'pig');
+}
+
 
 //Finding minimum
 function min (a,b){
