@@ -48,3 +48,19 @@ arrayReversed = []
 
  console.log(arrayReversed)
 }
+
+
+function arrayReverseInPlace(array){
+    for(let i = 0; i < 3; i++){
+        itemFirst = array[i]
+       array[i] = array[array.length-1-i]
+       array[array.length-1-i] = itemFirst
+       
+       
+     }
+     
+     
+     console.log(array)
+}
+ 
+arrayReverseInPlace([1,2,3,4,5,6,7])
