@@ -25,3 +25,15 @@ function addRange(array){
 }
 
 addRange(range(1,10))
+
+
+
+function arrayReverse(array){
+arrayReversed = []
+ for(let i = 0; i < array.length; i++){
+    item = array[i]
+    arrayReversed.unshift(item)
+ }
+
+ console.log(arrayReversed)
+}
