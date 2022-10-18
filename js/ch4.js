@@ -37,3 +37,14 @@ arrayReversed = []
 
  console.log(arrayReversed)
 }
+
+
+function arrayReverse(array){
+arrayReversed = []
+ for(let i = 0; i < array.length; i++){
+    item = array[i]
+    arrayReversed.unshift(item)
+ }
+
+ console.log(arrayReversed)
+}
